@@ -49,12 +49,12 @@ commands:
         command: "gradle build"
         workdir: ${CHE_PROJECTS_ROOT}/console-java-simple
   -
-    name: hi alex
+    name: hi dude
     actions:
       -
         type: exec
         component: gradle
-        command: "echo 'hello alex'"
+        command: "echo 'hello dude'"
         workdir: ${CHE_PROJECTS_ROOT}/console-java-simple
   -
     name: gradle run
