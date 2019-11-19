@@ -47,7 +47,7 @@ commands:
         type: exec
         component: gradle
         command: "gradle build"
-        workdir: ${CHE_PROJECTS_ROOT}/console-java-simple
+        workdir: ${CHE_PROJECTS_ROOT}/src/main/java/hello
   -
     name: hi dude
     actions:
@@ -55,7 +55,7 @@ commands:
         type: exec
         component: gradle
         command: "echo 'hello dude'"
-        workdir: ${CHE_PROJECTS_ROOT}/console-java-simple
+        workdir: ${CHE_PROJECTS_ROOT}/src/main/java/hello
   -
     name: gradle run
     actions:
@@ -63,4 +63,4 @@ commands:
         type: exec
         component: gradle
         command: "gradle run"
-        workdir: ${CHE_PROJECTS_ROOT}/console-java-simple
+        workdir: ${CHE_PROJECTS_ROOT}/src/main/java/hello
